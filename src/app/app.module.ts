@@ -12,8 +12,9 @@ import { CartService } from "./cart.service";
 import { CartComponent } from "./cart/cart.component";
 import { HttpClientModule } from "@angular/common/http";
 import { ShippingComponent } from "./shipping/shipping.component";
-import { MaterialModule } from "./material/material.module";
+
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { MaterialModule } from "./material.module";
 @NgModule({
   imports: [
     HttpClientModule,
